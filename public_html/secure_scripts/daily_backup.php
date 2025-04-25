@@ -15,8 +15,8 @@
 
 // Database Configuration
 define('DB_HOST', 'localhost');                     // <-- Your DB Host
-define('DB_NAME', 'alumglas_hpc');                 // <-- Your DB Name
-define('DB_RO_USER', 'alumglas_gem');              // <-- Your Read-Only DB User
+define('DB_NAME', 'your_dbname');                 // <-- Your DB Name
+define('DB_RO_USER', 'user');              // <-- Your Read-Only DB User
 define('DB_RO_PASS', 'YOUR_READ_ONLY_DB_PASSWORD_HERE'); // <-- !!! REPLACE THIS - VERY IMPORTANT !!!
 
 // Telegram Configuration
@@ -118,7 +118,7 @@ function sendToTelegram(string $filePath, string $caption = ''): bool {
 
 // Set timezone (essential for correct timestamps)
 // Find your timezone: https://www.php.net/manual/en/timezones.php
-date_default_timezone_set('Asia/Tehran'); // <-- ADJUST IF NEEDED
+date_default_timezone_set('.....'); // <-- ADJUST 
 
 logMessage("Starting backup process for database: " . DB_TO_BACKUP);
 
