@@ -1,0 +1,5 @@
+# Add one authorized Telegram Chat ID per line.
+# Get your ID from @userinfobot on Telegram.
+# Example:
+YOUR_TELEGRAM_CHAT_ID_HERE
+# ANOTHER_CHAT_ID_IF_NEEDED
